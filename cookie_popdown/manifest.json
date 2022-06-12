@@ -1,7 +1,7 @@
 {
   "name": "cookie-popdown",
   "description": "Google Chrome extension to remove annoying cookie consent popups",
-  "version": "1.0",
+  "version": "2022.05.03",
   "manifest_version": 3,
   "content_scripts": [{
     "matches": ["*://*/*"],
