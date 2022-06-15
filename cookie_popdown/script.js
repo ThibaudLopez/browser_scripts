@@ -20,6 +20,7 @@ window.setInterval(function () {
     'div.consent-modal',
     'div.Cookies_CookiesPopin',
     'div.jconfirm',
+    'div.js-consent-banner',
     'div.lgpd_container',
     'div.pw-cookie-consent-v2',
     'div.pw-cookie-consent-v2-backdrop',
