@@ -1,0 +1,10 @@
+{
+  "name": "GitHub sugar",
+  "description": "Google Chrome extension for GitHub.com",
+  "version": "2022.06.23",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "js": ["script.js"]
+  }]
+}
