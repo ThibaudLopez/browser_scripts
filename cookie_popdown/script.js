@@ -11,6 +11,7 @@ window.setInterval(function () {
     'div#cookieContainer',
     'div#cookieWarningMessage',
     'div#didomi-host',
+    'div#inform-cookies',
     'div#onetrust-consent-sdk',
     'div#orejime',
     'div#privacy-overlay',
