@@ -4,6 +4,7 @@ window.setInterval(function () {
     // a.b  Class selector
     // a[b] Attribute selector
     'dialog.cookie-policy',
+    'div#axeptio_overlay',
     'div#bw-cookie-banner',
     'div#cconsent-bar',
     'div#ccpaCookieBanner' ,
@@ -19,6 +20,8 @@ window.setInterval(function () {
     'div#tarteaucitronRoot',
     'div#tc-privacy-wrapper',
     'div.consent-modal',
+    'div.Cookie',
+    'div.cookiebar',
     'div.Cookies_CookiesPopin',
     'div.jconfirm',
     'div.js-consent-banner',
@@ -28,6 +31,7 @@ window.setInterval(function () {
     'div.tc-privacy-wrapper',
     'div.wt-cli-cookie-bar-container',
     'div[aria-label="Avant d\'accéder à la recherche Google"]',
+    'eu-cookie-compliance',
   ];
   selectors.forEach(selector => {
     var e = document.querySelector(selector);
