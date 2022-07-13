@@ -17,6 +17,7 @@ window.setInterval(function () {
     'div#orejime',
     'div#privacy-overlay',
     'div#privacy-overlay-banner',
+    'div#qc-cmp2-container',
     'div#tarteaucitronRoot',
     'div#tc-privacy-wrapper',
     'div.consent-modal',
