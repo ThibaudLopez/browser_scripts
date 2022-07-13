@@ -31,6 +31,8 @@ window.setInterval(function () {
     'div.tc-privacy-wrapper',
     'div.wt-cli-cookie-bar-container',
     'div[aria-label="Avant d\'accéder à la recherche Google"]',
+    'div[data-testid=cookie-policy-manage-dialog]',
+    'div[role=dialog]',
     'eu-cookie-compliance',
   ];
   selectors.forEach(selector => {
@@ -43,5 +45,6 @@ window.setInterval(function () {
         console.log('cookie popup failed');
       }
     }
+    document.body.className = null;
   });
 }, 1000);
