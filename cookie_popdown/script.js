@@ -33,19 +33,18 @@ window.setInterval(function () {
     'div.wt-cli-cookie-bar-container',
     'div[aria-label="Avant d\'accéder à la recherche Google"]',
     'div[data-testid=cookie-policy-manage-dialog]',
-    'div[role=dialog]',
+    // 'div[role=dialog]',
     'eu-cookie-compliance',
   ];
   selectors.forEach(selector => {
     var e = document.querySelector(selector);
     if (e) {
       if (e.parentElement.removeChild(e) === e) {
-        document.body.style.overflow = null;
         console.log('cookie popup down!');
       } else {
         console.log('cookie popup failed');
       }
     }
-    document.body.className = null;
+    document.body.style.setProperty('overflow', 'visible', 'important');
   });
 }, 1000);
