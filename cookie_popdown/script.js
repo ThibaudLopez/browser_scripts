@@ -4,6 +4,7 @@ window.setInterval(function () {
     // a.b  Class selector
     // a[b] Attribute selector
     'dialog.cookie-policy',
+    'div#awsccc-cb-content',
     'div#axeptio_overlay',
     'div#bw-cookie-banner',
     'div#cconsent-bar',
