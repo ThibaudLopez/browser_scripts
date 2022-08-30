@@ -21,6 +21,7 @@ window.setInterval(function () {
     'div#qc-cmp2-container',
     'div#tarteaucitronRoot',
     'div#tc-privacy-wrapper',
+    'div#twcc__mechanism',
     'div.consent-modal',
     'div.Cookie',
     'div.cookiebar',
@@ -45,6 +46,9 @@ window.setInterval(function () {
       } else {
         console.log('cookie popup failed');
       }
+    }
+    if (document.body.className === "tc-modal-open") {
+      document.body.className = null;
     }
     document.body.style.setProperty('overflow', 'visible', 'important');
   });
