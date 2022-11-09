@@ -37,6 +37,8 @@ window.setInterval(function () {
     'div[data-testid=cookie-policy-manage-dialog]',
     // 'div[role=dialog]',
     'eu-cookie-compliance',
+    'div[data-testid=sheetDialog]',
+    'div#layers',
   ];
   selectors.forEach(selector => {
     var e = document.querySelector(selector);
@@ -51,5 +53,6 @@ window.setInterval(function () {
       document.body.className = null;
     }
     document.body.style.setProperty('overflow', 'visible', 'important');
+    document.head.parentElement.style.setProperty('overflow', 'visible', 'important');
   });
 }, 1000);
