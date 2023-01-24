@@ -39,6 +39,7 @@ window.setInterval(function () {
     'eu-cookie-compliance',
     'div[data-testid=sheetDialog]',
     'div#layers',
+    'div.md-consent',
   ];
   selectors.forEach(selector => {
     var e = document.querySelector(selector);
