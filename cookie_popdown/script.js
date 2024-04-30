@@ -25,6 +25,7 @@ window.setInterval(function () {
     'div#onetrust-consent-sdk',
     'div#orejime',
     'div#privacy-overlay',
+    'div.tc-privacy-overlay',
     'div#privacy-overlay-banner',
     'div#qc-cmp2-container',
     'div#tarteaucitronRoot',
@@ -50,6 +51,9 @@ window.setInterval(function () {
     'div[data-testid=cookie-policy-manage-dialog]',
     'div[data-testid=sheetDialog]',
     'eu-cookie-compliance',
+    'div[aria-labelledby=cookie-consent-title]',
+    'div.Cookiebar_Cookiebar__yg4dJ',
+    'div[aria-label="Privacy banner"]',
     // 'div[role=dialog]',
   ];
   selectors.forEach(selector => {
