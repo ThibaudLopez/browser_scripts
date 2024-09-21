@@ -54,6 +54,9 @@ window.setInterval(function () {
     'div[aria-labelledby=cookie-consent-title]',
     'div.Cookiebar_Cookiebar__yg4dJ',
     'div[aria-label="Privacy banner"]',
+    'div#bandeauConsentement',
+    'div#pageConsentement',
+    'div#idPopupWARecueilConsentement',
     // 'div[role=dialog]',
   ];
   selectors.forEach(selector => {
