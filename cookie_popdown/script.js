@@ -57,6 +57,7 @@ window.setInterval(function () {
     'div#bandeauConsentement',
     'div#pageConsentement',
     'div#idPopupWARecueilConsentement',
+    'div#pendo-base',
     // 'div[role=dialog]',
   ];
   selectors.forEach(selector => {
